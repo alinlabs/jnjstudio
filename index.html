@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#000000" />
+    
+    <!-- Primary Meta Tags -->
+    <title>JNJ Studio | Premium Typography & Fonts</title>
+    <meta name="title" content="JNJ Studio | Premium Typography & Fonts" />
+    <meta name="description" content="Upgrade your design with JNJ Studio's premium font collection. Features interactive testing, instant licensing, and high-quality typefaces for brands and creators." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jnjstudio.com/" />
+    <meta property="og:title" content="JNJ Studio | Premium Typography & Fonts" />
+    <meta property="og:description" content="Upgrade your design with JNJ Studio's premium font collection. Features interactive testing, instant licensing, and high-quality typefaces for brands and creators." />
+    <meta property="og:image" content="https://i.ibb.co.com/nMw3zHXN/Generated-Image-February-14-2026-6-29-AM.webp" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://jnjstudio.com/" />
+    <meta property="twitter:title" content="JNJ Studio | Premium Typography & Fonts" />
+    <meta property="twitter:description" content="Upgrade your design with JNJ Studio's premium font collection. Features interactive testing, instant licensing, and high-quality typefaces for brands and creators." />
+    <meta property="twitter:image" content="https://i.ibb.co.com/nMw3zHXN/Generated-Image-February-14-2026-6-29-AM.webp" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              // Product font mappings
+              'product-helios': ['Oswald', 'sans-serif'],
+              'product-seraphina': ['Playfair Display', 'serif'],
+              'product-mono': ['JetBrains Mono', 'monospace'],
+              'product-wild': ['Dancing Script', 'cursive'],
+              'product-cinzel': ['Cinzel', 'serif'],
+              'product-space': ['Space Grotesk', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                black: '#0a0a0a',
+                white: '#ffffff',
+                gray: '#f4f4f5',
+                accent: '#3b82f6'
+              }
+            },
+            transitionTimingFunction: {
+              'out-expo': 'cubic-bezier(0.19, 1, 0.22, 1)',
+              'luxury': 'cubic-bezier(0.33, 1, 0.68, 1)', /* NEW: Very smooth, premium feel */
+            },
+            transitionDuration: {
+              '400': '400ms',
+              '600': '600ms',
+              '700': '700ms',
+              '800': '800ms',
+            },
+            animation: {
+              'float': 'float 6s ease-in-out infinite',
+              'scroll': 'scroll 40s linear infinite',
+              'fade-in': 'fadeIn 0.6s ease-out forwards',
+              'fade-in-up': 'fadeInUp 0.8s cubic-bezier(0.33, 1, 0.68, 1) forwards',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              },
+              scroll: {
+                '0%': { transform: 'translateX(0)' },
+                '100%': { transform: 'translateX(-50%)' },
+              },
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(30px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.564.0",
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.4",
+    "path": "https://esm.sh/path@^0.12.7",
+    "lottie-react": "https://esm.sh/lottie-react@^2.4.1",
+    "url": "https://esm.sh/url@^0.11.4"
+  }
+}
+</script>
+  <script type="module" crossorigin src="./assets/index-CyXpRmAB.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BdvBcoGH.css">
+</head>
+  <body class="bg-white dark:bg-brand-black text-brand-black dark:text-white antialiased selection:bg-black selection:text-white dark:selection:bg-white dark:selection:text-black transition-colors duration-500 ease-luxury">
+    <div id="root"></div>
+    <!-- VITE ENTRY POINT: CRITICAL FOR BUILD -->
+  </body>
+</html>

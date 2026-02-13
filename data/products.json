@@ -1,0 +1,87 @@
+
+[
+  {
+    "id": "5",
+    "nama": "Univers Condensed",
+    "perancang": "Adrian Frutiger",
+    "jumlahPengguna": 8900,
+    "jumlahGaya": 1,
+    "kategori": "Sans Serif",
+    "deskripsi": "Mahakarya neo-grotesque yang dirancang oleh Adrian Frutiger. Versi Condensed sangat efisien untuk ruang terbatas tanpa mengorbankan keterbacaan.",
+    "kelasCss": "font-univers-condensed",
+    "tag": ["Swiss", "Condensed", "Clean", "Editorial"],
+    "teksPratinjau": "Univers C.",
+    "tautanCloud": "#",
+    "tautanUnduh": "#",
+    "urlFileFont": "https://raw.githubusercontent.com/AllThingsSmitty/fonts/master/Univers/Univers-Condensed.woff2",
+    "hargaLisensi": {
+      "desktop": { "normal": 600000, "promo": 450000 },
+      "web": { "normal": 900000, "promo": 750000 },
+      "app": { "normal": 1500000, "promo": 1200000 },
+      "server": { "normal": 3000000, "promo": 2500000 }
+    }
+  },
+  {
+    "id": "6",
+    "nama": "Univers Regular",
+    "perancang": "Adrian Frutiger",
+    "jumlahPengguna": 10500,
+    "jumlahGaya": 1,
+    "kategori": "Sans Serif",
+    "deskripsi": "Standar emas tipografi Swiss. Univers Regular menawarkan netralitas yang elegan, rasionalitas, dan keterbacaan yang tak tertandingi di berbagai media.",
+    "kelasCss": "font-univers",
+    "tag": ["Swiss", "Regular", "Legendary", "Neutral"],
+    "teksPratinjau": "Univers Reg.",
+    "tautanCloud": "#",
+    "tautanUnduh": "#",
+    "urlFileFont": "https://raw.githubusercontent.com/AllThingsSmitty/fonts/master/Univers/Univers.woff2",
+    "hargaLisensi": {
+      "desktop": { "normal": 450000, "promo": null },
+      "web": { "normal": 700000, "promo": null },
+      "app": { "normal": 1200000, "promo": 1000000 },
+      "server": { "normal": 2500000, "promo": null }
+    }
+  },
+  {
+    "id": "7",
+    "nama": "Open Sans",
+    "perancang": "Steve Matteson",
+    "jumlahPengguna": 25000,
+    "jumlahGaya": 1,
+    "kategori": "Sans Serif",
+    "deskripsi": "Font humanis sans-serif dengan keterbacaan luar biasa. Dioptimalkan untuk antarmuka cetak, web, dan seluler.",
+    "kelasCss": "font-opensans",
+    "tag": ["Web", "Humanist", "Clean", "Standard"],
+    "teksPratinjau": "Open Sans UI",
+    "tautanCloud": "#",
+    "tautanUnduh": "#",
+    "urlFileFont": "https://raw.githubusercontent.com/edx/edx-fonts/master/open-sans/fonts/Regular/OpenSans-Regular.woff",
+    "hargaLisensi": {
+      "desktop": { "normal": 250000, "promo": null },
+      "web": { "normal": 400000, "promo": null },
+      "app": { "normal": 800000, "promo": null },
+      "server": { "normal": 1500000, "promo": null }
+    }
+  },
+  {
+    "id": "8",
+    "nama": "Bebas Neue",
+    "perancang": "Ryoichi Tsunekawa",
+    "jumlahPengguna": 18200,
+    "jumlahGaya": 1,
+    "kategori": "Display",
+    "deskripsi": "Sans serif display yang hanya memiliki huruf kapital. Dikenal sebagai 'Helvetica dari font gratis'. Sempurna untuk judul yang kuat.",
+    "kelasCss": "font-bebas",
+    "tag": ["Bold", "Headline", "Caps", "Impact"],
+    "teksPratinjau": "BEBAS NEUE",
+    "tautanCloud": "#",
+    "tautanUnduh": "#",
+    "urlFileFont": "https://raw.githubusercontent.com/Scrum/font-bebas-neue/master/fonts/BebasNeue.woff2",
+    "hargaLisensi": {
+      "desktop": { "normal": 450000, "promo": 300000 },
+      "web": { "normal": 600000, "promo": 450000 },
+      "app": { "normal": 1000000, "promo": 800000 },
+      "server": { "normal": 2000000, "promo": 1500000 }
+    }
+  }
+]
